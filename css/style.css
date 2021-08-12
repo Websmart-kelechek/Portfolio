@@ -84,3 +84,8 @@ body {
   .word {
     color: #fff;
   }
+  .banner__team {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(3, 3, 37);
+  }
