@@ -1,187 +1,64 @@
-body {
-    margin: 0;
-    padding: o;
-    background-image: url(../images/naki.jpg);
-    max-width: 1600px;
-    height: auto;
-  }
-  
-  .nav {
-    display: flex;
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-  
-  }
-  
-  .images {
-    display: block;
-    width: 110px;
-    height: 80px;
-  }
-  
-  
-  
-  .menubar {
-    float: right;
-    width: 100%;
-    text-transform: uppercase;
-    text-align: left;
-    border-bottom: 2px solid #011;
-    border: 2px solid rgb(13, 10, 53);
-    border-radius: 15px;
-    height: 50px;
-    overflow: hidden;
-    position: relative;
-    padding: 5px 0 10px 0;
-    opacity: 0.1;
-    background: rgb(215, 213, 236);
-    color: rgb(13, 10, 53);
-    margin: 15px;
-  }
-  
-  .menubar:hover {
-    opacity: 1;
-  }
-  
-  .menubar ul {
-    float: left;
-    clear: left;
-    position: relative;
-    list-style: none;
-    left: 40%;
-    display: block;
-    text-align: left;
-  }
-  
-  .menubar ul li {
-    display: inline;
-    text-align: center;
-    margin: 1em;
-    padding: 1em;
-  }
-  
-  .icon {
-    width: 20px;
-    height: 20px;
-    color: black;
-  }
-  
-  
-  h1 {
-    font-family: roboto sans-serif;
-    font-size: 300%;
-    text-align: center;
-    color: rgb(13, 10, 53);
-    font-weight: bolder;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-top: 13%;
-  
-  
-  }
-  
-  .word {
-    color: #fff;
-  }
-
-  .banner__team {
-    font-size: 2em;
-    text-align: center;
-    color: rgb(3, 3, 37);
-  }
-
-
-
-  *,
-*::after,
-*::before {
-    box-sizing: border-box;
+body{
+  background-image: url('https://ak.picdn.net/shutterstock/videos/23545738/thumb/1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.section {
-    padding: 80px 0;
+ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.section-header {
-    width: 100%;
-    max-width: 950px;
-    margin: 0 auto 40px;
-
-    text-align: center;
+ul li a:hover {
+  color: rgb(253, 55, 194);
 }
 
-.section-subtitle {
-    font-size: 24px;
-    color: #333;
+ul {
+  display: flex;
+  justify-content: center;
 }
 
-.section-title {
-    font-size: 30px;
-    color: #333;
-    text-transform: uppercase;
+ul li:hover {
+  border: 5px solid rgb(253, 55, 194);
 }
 
-.section-title::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 3px;
-    margin: 30px auto;
-
-    background-color: #f38181;
+ul li {
+  display: flex;
+  width: 200px;
+  margin: 30px;
+  border-radius: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 30px 15px 30px 15px;
+  box-shadow: 3px ;
+  justify-content: center;
+  text-align: center;
 }
 
-.section-clients {
-    background-color: #f8f8f8;
-    background-image: url(images/clients-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+h2 {
+  font-size: 40px;
+  text-align: center;
 }
 
-.clients {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 70px;
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 30px;
 }
 
-.clients-items {
-    width: 50%;
-    padding: 0 45px 0 175px;
-    position: relative;
-    margin-bottom: 60px;
+.about {
+  display: flex;
 }
 
-.clients-photo {
-    width: 110px;
-    height: 110px;
-
-    border-radius: 50%;
-
-    position: absolute;
-    top: 0;
-    left: 40px;
-    z-index: 1;
+.img {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+.p1 {
+  margin: 10px 130px 0 70px;
+  line-height: 30px;
 }
 
-.clients-name {
-    font-size: 14px;
-    color: #333;
-    text-transform: uppercase;
-}
-
-.clients-text {
-    font-size: 15px;
-    color: #999;
-}
-
-.clients-text::before {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    margin: 15px 0;
-
-    background-color: #f38181;
-}
